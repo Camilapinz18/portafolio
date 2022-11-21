@@ -1,0 +1,44 @@
+.services_container{
+    background: var(--color-bg-light);
+    margin: 50px auto;
+    width: 100%;
+    
+}
+
+.services_container h1{
+    color: white;
+    margin: 60px 0 60px 0;
+    text-align: center;
+    font-size: 45px;
+}
+
+.services_cards{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    /*border: 1px solid red;*/
+    justify-content: center;
+}
+
+.card{
+    border-radius: 10px;
+    background: var(--color-se);
+    padding: 30px 15px 30px 15px;
+
+    width: 15%;
+}
+
+.card h3{
+    text-align: center;
+}
+
+.card p{
+    text-align: center;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.card_icon{
+    font-size: 70px;
+    text-align: center;
+}

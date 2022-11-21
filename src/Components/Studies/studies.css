@@ -1,0 +1,8 @@
+.studies_container {
+    background: var(--color-bg-light);
+}
+
+.studies_container h1 {
+    color: white;
+    text-align: center;
+}

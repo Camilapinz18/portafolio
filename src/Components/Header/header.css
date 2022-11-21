@@ -1,0 +1,56 @@
+.nav_container{
+    background: var(--color-bg);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+    align-items: center;
+    /*border: 1px solid green;*/
+}
+
+.nav_links{
+    display: flex;
+    flex-direction: row;
+    /*border: 1px solid green;*/
+    width: 50%;
+    height: 30px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+a{
+
+    color: white;
+}
+
+a:hover{
+    color: gold;
+    cursor: pointer;
+    font-weight: initial;
+}
+
+.nav_icon{
+    /*border: 1px solid fuchsia;*/
+
+}
+
+.nav_icon a{
+    color:gold;
+    font-size: 30px;
+   
+
+}
+
+.nav_social{
+    /*border: 1px solid blue;*/
+    display: flex;
+    justify-content: space-around;
+    width: 50px;
+
+}
