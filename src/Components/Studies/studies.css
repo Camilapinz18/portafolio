@@ -1,8 +1,44 @@
 .studies_container {
     background: var(--color-bg-light);
+    padding: 50px auto;
 }
 
 .studies_container h1 {
     color: white;
     text-align: center;
+    font-size: 45px;
+
+}
+
+.studies_flex{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    height: 300px;
+    margin: 50px auto;
+}
+
+.studies_image{
+    flex-basis: 35%;
+}
+
+.studies_list{
+    flex-basis: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.studies_list_element{
+    background: var(--color-se);
+    border-radius: 10px;
+    height: 60px;
+}
+
+.studies_list_element h3{
+    margin: 10px 0 0 15px;
+}
+
+.studies_list_element h4{
+    margin: 0 0 0 15px;
 }
